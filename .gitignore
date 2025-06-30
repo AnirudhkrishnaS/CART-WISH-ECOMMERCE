@@ -22,3 +22,29 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+
+# Node.js
+node_modules/
+npm-debug.log
+
+# Express.js
+.env
+
+# Mongoose
+*.log
+
+
+
+# Tests
+test/
+tests/
+__tests__/
+*.spec.js
+*.test.js
+
+# Other
+.DS_Store
+*.pid
+*.seed
+*.pid.lock
